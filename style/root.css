@@ -1,0 +1,28 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bright-orange: hsl(31, 77%, 52%);
+  --primary-dark-cyan: hsl(184, 100%, 22%);
+  --primary-very-dark-cyan: hsl(179, 100%, 13%);
+  
+  --neutral-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --neutral-very-light-gray: hsl(0, 0%, 95%);
+  
+  --font-size-body: 15px;
+  
+  --font-family-lexend-deca: 'Lexend Deca', sans-serif;
+  --font-family-big-shoulders-display: 'Big Shoulders Display', sans-serif;
+  
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+* {
+    padding: 0;
+    
+}

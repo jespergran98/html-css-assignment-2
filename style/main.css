@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--neutral-very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: var(--font-size-body);
+    color: var(--neutral-transparent-white);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    flex: 1;
+    max-width: 307px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.panel-icon {
+    width: 64px;
+    height: 40px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--neutral-very-light-gray);
+    margin: 0 0 25px 0;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0 0 85px 0;
+    text-align: left;
+    line-height: 1.67;
+    color: var(--neutral-transparent-white);
+}
+
+.learn-more {
+    padding: 12px 32px;
+    border-radius: 25px;
+    border: 2px solid var(--neutral-very-light-gray);
+    background-color: var(--neutral-very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: transparent;
+    color: var(--neutral-very-light-gray);
+    border-color: var(--neutral-very-light-gray);
+}
+
+.left {
+    background-color: var(--primary-bright-orange);
+    border-radius: 8px 0 0 8px;
+}
+
+.left .learn-more {
+    color: var(--primary-bright-orange);
+}
+
+.left .learn-more:hover {
+    color: var(--neutral-very-light-gray);
+}
+
+.center {
+    background-color: var(--primary-dark-cyan);
+}
+
+.center .learn-more {
+    color: var(--primary-dark-cyan);
+}
+
+.center .learn-more:hover {
+    color: var(--neutral-very-light-gray);
+}
+
+.right {
+    background-color: var(--primary-very-dark-cyan);
+    border-radius: 0 8px 8px 0;
+}
+
+.right .learn-more {
+    color: var(--primary-very-dark-cyan);
+}
+
+.right .learn-more:hover {
+    color: var(--neutral-very-light-gray);
+}
