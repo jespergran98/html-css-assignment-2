@@ -102,3 +102,34 @@ p {
 .right .learn-more:hover {
     color: var(--neutral-very-light-gray);
 }
+
+.design-reference {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    z-index: 1000;
+}
+
+.reference-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.reference-image {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, max-width 0.3s ease;
+    cursor: pointer;
+}
+
+.reference-image:hover {
+    transform: scale(2.5);
+    transform-origin: bottom right;
+    max-width: 500px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
